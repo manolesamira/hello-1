@@ -4,7 +4,7 @@
 
 
 
-void main()
+void main(int argc, char* argv[])
 {
-	printf("Hello !");
+	printf("\nHello, %s !\n",argv[1]);
 }
